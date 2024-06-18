@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: red;
+    width: 70%;
+    margin: 40px 200px;
+
+}
+#slider{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 90px;
+}
+.pre{
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+
+}
+.next{
+    padding: 8px 45px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+
+}
+#slider {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    width: 70%;
+    margin: 100px 30px;
+  }
+  body {
+    background-color: #fbcb3d;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .main {
+    background-color: #faf2d9;
+    color: #600f10;
+    padding: 20px;
+    border-radius: 20px;
+    width: 335px;
+
+  }
+  .images img {
+    border: 3px solid #ff7b64;
+    border-radius: 50px;
+    margin: 40px 20px;
+    width: 80%;
+    height: 100%;
+    background-color: #f7f0de;
+
+  }
+  .name {
+    height: 70px;
+    padding-left: 40px;
+  }
+  .price {
+    color: #600f10;
+    font-size: 24px;
+    padding-left: 40px;
+  }
+  .details {
+    font-size: large;
+    width: 70%;
+    padding-left: 40px;
+  }
+  .rating {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 70%;
+
+  }
+  .bottom {
+    display: flex;
+    width: 70%;
+
+  }
+  .buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .buy button {
+    background-color: #ff7b64;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .horizontal-line {
+    height: 2px;
+    background-color: #4caf50;
+    margin: 2px 0;
+    width: 90%;
+    margin-left: 35px;
+  }
+  .discount {
+    margin-left: 60px;
+  }
+  .bottomright{
+    width: 70%;
+  }
