@@ -75,8 +75,11 @@
 }
 
 .items ul li a:hover {
-    background-color: white;
+    /* background-color: white; */
     border-radius: 15px;
     transition: 1s;
     color: black;
+}
+.active{
+    background-color: red;
 }

@@ -60,13 +60,19 @@ const data = [
 //     next()
 // },2000);
 
-let home=document.getElementById('home');
-let about=document.getElementById('about');
-let blog=document.getElementById('blog');
-let contact=document.getElementById('contact');
+let navitems=document.querySelectorAll('.items ul li');
 
 
-function navbar(){
-    
+function navbar(active){
+    console.log(navitems);
+    navitems.forEach((li)=>{
+        console.log(li.getAttribute('id')==active);
+        li.classList.remove('active')
+        if(li.getAttribute('id')==active){
+            li.classList.add('active')
+        }
+    })
+
     
 }
+navbar('home');
