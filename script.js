@@ -50,7 +50,7 @@ const data = [
         if(start===0){
             start=data.length-1;
         }
-        else{
+        else{ 
             start-=1
         }
         imageslider(start)
