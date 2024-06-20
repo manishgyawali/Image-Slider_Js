@@ -76,3 +76,11 @@ function navbar(active){
     
 }
 navbar('home');
+
+let variable=document.querySelectorAll('.sections section');
+window.addEventListener('scroll',function(){
+    console.log(pageYOffset)
+    variable.forEach(section){
+
+    }
+})

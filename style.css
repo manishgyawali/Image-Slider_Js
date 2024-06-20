@@ -79,9 +79,21 @@
     border-radius: 15px;
     transition: 1s;
     color: black;
-    
+
 }
-.active{
+
+.active {
     background-color: red;
-    
+
+}
+
+.sections {
+    margin: 50px;
+}
+
+.sections section {
+    margin-top: 100px;
+    background-color: rgb(122, 187, 187);
+    padding: 30px;
+    color: white;
 }
