@@ -64,7 +64,7 @@ let navitems=document.querySelectorAll('.items ul li');
 
 
 function navbar(active){
-    console.log(navitems);
+    console.log(navitems);  
     navitems.forEach((li)=>{
         console.log(li.getAttribute('id')==active);
         li.classList.remove('active')
