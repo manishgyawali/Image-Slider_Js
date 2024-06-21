@@ -48,7 +48,7 @@ const data = [
     }
     function previous(){
         if(start===0){
-            start=data.length-1;
+            start=data.length-1; 
         }
         else{ 
             start-=1
