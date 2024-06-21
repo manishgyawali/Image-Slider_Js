@@ -76,10 +76,17 @@ function navbar(active){
 }
 navbar('home');
 
-let variable=document.querySelectorAll('.sections section');
+
+let sections=document.querySelectorAll('.sections section')
+
 window.addEventListener('scroll',function(){
     console.log(pageYOffset)
-    variable.forEach(section){
 
-    }
+    sections.forEach((section)=>{
+        if(pageYOffset>=section.offsetTop-60){
+            console.log(section.getAttribute('id'))
+            navbar(section.getAttribute('id'))
+        }
+
+    })
 })
