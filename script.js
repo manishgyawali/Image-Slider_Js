@@ -60,6 +60,7 @@ const data = [
 //     next()
 // },2000);
 
+
 let navitems=document.querySelectorAll('.items ul li');
 
 
