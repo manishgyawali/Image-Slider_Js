@@ -85,8 +85,10 @@ window.addEventListener('scroll',function(){
 
     sections.forEach((section)=>{
         if(pageYOffset>=section.offsetTop-60){
-            console.log(section.getAttribute('id'))
-            navbar(section.getAttribute('id'))
+            // console.log(section.getAttribute('id'))
+            console.log(section.classList('class'))
+            // navbar(section.getAttribute('id'))
+            navbar(section.classList('class'))
         }
 
     })
