@@ -69,7 +69,7 @@ function navbar(active){
     navitems.forEach((li)=>{
         console.log(li.getAttribute('id')==active);
         li.classList.remove('active')
-        if(li.getAttribute('id')==active){
+        if(li.classList.contains(active)){
             li.classList.add('active')
         }
     })
@@ -85,10 +85,8 @@ window.addEventListener('scroll',function(){
 
     sections.forEach((section)=>{
         if(pageYOffset>=section.offsetTop-60){
-            // console.log(section.getAttribute('id'))
-            console.log(section.classList('class'))
-            // navbar(section.getAttribute('id'))
-            navbar(section.classList('class'))
+            console.log(section.getAttribute('id'))
+            navbar(section.getAttribute('id'))
         }
 
     })
