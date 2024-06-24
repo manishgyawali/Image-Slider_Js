@@ -89,5 +89,7 @@ window.addEventListener('scroll',function(){
             navbar(section.getAttribute('id'))
         }
 
+        
     })
 })
+
