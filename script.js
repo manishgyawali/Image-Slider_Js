@@ -34,6 +34,9 @@ const data = [
             }
         })
     }
+
+
+    
     imageslider(start)
     
     function next(){
