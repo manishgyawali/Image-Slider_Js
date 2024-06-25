@@ -29,7 +29,11 @@ function imageslider() {
 
 imageslider(start);
 
+
+
 function next() {
+
+  
   if (start === data.length - 1) {
     start = 0;
   } else {
